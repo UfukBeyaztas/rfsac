@@ -1,0 +1,18 @@
+Package: rfsac
+Type: Package
+Title: Robust Spatial Scalar-on-Function Regression
+Version: 1.0
+Depends: R (>= 3.5.0), fda, MASS, Matrix
+Imports: expm, fda.usc, pcaPP, methods
+LazyLoad: yes
+ByteCompile: TRUE
+Encoding: UTF-8
+Authors@R: c(
+	person("Ufuk", "Beyaztas", email="ufukbeyaztas@gmail.com", role=c("aut", "cre", "cph"), comment = c(ORCID = "0000-0002-5208-4950")),
+	person("Abhijit", "Mandal", role="aut", comment = c(ORCID = "0000-0003-3830-6526")),
+	person("Han Lin", "Shang", role="aut", comment = c(ORCID = "0000-0003-1769-6430"))
+	)
+Maintainer: Ufuk Beyaztas <ufukbeyaztas@gmail.com>
+Description: Functions for implementing robust methods for spatial scalar-on-function linear regression.
+License: GPL-3
+RoxygenNote: 7.1.2

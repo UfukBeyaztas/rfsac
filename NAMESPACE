@@ -1,0 +1,25 @@
+export(
+"data_generation",
+"flm_pca",
+"fsac_pca",
+"fsac_pls",
+"predict_flm_pca",
+"predict_fsac_pca",
+"predict_fsac_pls"
+)
+
+
+import(fda)
+import(MASS)
+import(Matrix)
+
+importFrom("methods", "as")
+importFrom("expm", "sqrtm")
+importFrom("fda.usc", "inprod.fdata", "fdata")
+importFrom("pcaPP", "l1median", "qn", "covPCAproj", "PCAproj")
+importFrom("pcaPP", "qn")
+importFrom("graphics", "legend", "lines")
+importFrom("stats", ".getXlevels", "cov", "cov.wt", "dchisq","sd","fitted","rchisq",
+             "integrate", "lm", "mahalanobis", "median", "model.matrix",
+             "na.omit", "pchisq", "pnorm", "qnorm", "dnorm", "qchisq", "quantile", "rnorm",
+             "runif", "terms", "nlm", "optimize")
